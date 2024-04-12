@@ -40,9 +40,6 @@ homepage = "https://github.com/hoechenberger/openneuro-py"
 source = "vcs"
 raw-options = { version_scheme = "release-branch-semver" }
 
-[tool.hatch.build.targets.wheel]
-packages = ["src/openneuro"]
-
 [tool.pytest.ini_options]
 addopts = "-ra -vv --tb=short --durations=10"
 
